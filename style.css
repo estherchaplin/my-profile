@@ -1,0 +1,82 @@
+body {
+	background-color:#f3dfe3;
+	color: rgb(30,30,30);
+	font-family: 'Lora', serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Martel Sans', sans-serif;
+}
+
+
+h1 {
+	color: rgb(60,92,126);
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2 {
+	color: rgb(100,100,100);
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(60,92,126);
+	font-weight: bold;
+	font-family: 'Martel Sans', sans-serif;
+}
+
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color:#f3dfe3;
+	color: rgb(60,92,126);
+	padding: 12px 16px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color:#f3dfe3;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
